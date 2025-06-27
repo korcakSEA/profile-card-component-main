@@ -1,0 +1,32 @@
+:root{
+
+    /* ## Font */
+    --primary-font-family: 'Kumbh Sans', sans-serif;
+    --primary-font-regular: 1rem;
+    --primary-font-md:1.125rem;
+
+    /* ## Colors */
+
+    /* ### Primary */
+
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+
+    /* ### Neutral */
+
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+    font-family: var(--primary-font-family);
+    font-size: var(--primary-font-size);
+    color: var(--Dark-grayish-blue);
+    background-color: var(--Dark-cyan);
+
+    background-image: url('./images/bg-pattern-top.svg'),
+                  url('./images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom -45vh right 45vw, top 40vh left 40vw;
+}
+
